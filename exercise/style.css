@@ -1,0 +1,271 @@
+/* --- GLOBAL STYLES --- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* FONT */
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(169, 157, 180);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(66, 65, 65);
+}
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+/* --- NAVIGATION BAR --- */
+nav {
+  height: 17vh;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.nav-links {
+  list-style: none;
+  font-size: 24px;
+}
+
+.nav-links li {
+  display: inline-block; 
+  margin: 0 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 32px;
+  cursor: default;
+  margin-bottom: 16px;
+}
+
+/* --- GENERAL SECTIONS --- */
+section {
+  padding-top: 4vh;
+  margin: 0 160px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.main-heading {
+  font-size: 48px;
+  text-align: center;
+}
+
+.small-icon {
+  cursor: pointer;
+  height: 32px;
+}
+
+/* --- BUTTONS --- */
+.button-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 16px;
+  width: 128px;
+  border-radius: 32px;
+  border: rgb(53, 53, 53) 2px solid;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 8px;
+  text-align: center;
+}
+
+/* "Solid" button (Black) */
+.button-solid:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+/* "Outline" button (Transparent) */
+.button-outline {
+  background: none;
+}
+
+.button-outline:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+  border: rgb(255, 255, 255) 2px solid;
+}
+
+/* --- PROFILE SECTION --- */
+#profile {
+  height: auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.profile-picture-box {
+  height: 400px;
+  margin: 0 auto;
+}
+
+.profile-text-box {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.profile-text-box p {
+  font-weight: 600;
+}
+
+.greeting-text {
+  text-align: center;
+}
+
+.subtitle-text {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+/* --- ABOUT ME SECTION --- */
+#about {
+  position: relative;
+  height: fit-content;
+  margin-bottom: 64px;
+}
+
+.about-text-box {
+  margin-top: 15px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.about-content-wrapper {
+  margin-top: 15px;
+}
+
+/* Experience List */
+.experience-box {
+  padding: 24px;
+  background: rgb(169, 157, 180);
+  border-radius: 32px;
+  border: rgb(0, 0, 0) 2px solid;
+  margin-bottom: 32px;
+}
+
+.box-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.experience-list {
+  padding-left: 20px;
+  color: rgb(64, 63, 63);
+}
+
+.experience-list li {
+  margin-bottom: 12px;
+}
+
+/* Skills and Education Boxes */
+.details-wrapper {
+  margin-top: 16px;
+}
+
+.info-card {
+  padding: 24px;
+  background: rgb(169, 157, 180);
+  border-radius: 32px;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* --- PROJECTS SECTION --- */
+.projects-wrapper {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+  
+.project-card {
+    padding: 24px;
+    background: rgb(169, 157, 180);
+    border-radius: 32px;
+    border: 2px solid rgb(16, 15, 15);
+    text-align: center;
+    margin-bottom: 32px;
+}
+  
+.project-image-box {
+    margin-bottom: 16px;
+}
+  
+.project-img {
+    border-radius: 32px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    object-fit: cover;
+}
+  
+.project-title {
+    margin: 16px;
+    color: black;
+ }
+  
+.project-card .button-container {
+    margin-top: 20px; 
+}
+
+/* --- CONTACT SECTION --- */
+#contact {
+  text-align: center;
+  height: auto;
+  padding-bottom: 32px;
+}
+
+.contact-card-wrapper {
+  border-radius: 32px;
+  border: rgb(27, 22, 22) 2px solid;
+  background: rgb(169, 157, 180);
+  margin: 32px auto;
+  padding: 24px;
+  width: fit-content;
+}
+
+.contact-item {
+  margin: 16px;
+}
+
+.contact-item p {
+  font-size: larger;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.email-icon {
+  height: 40px;
+  vertical-align: middle;
+}
+
+/* --- FOOTER --- */
+footer {
+  height: 26vh;
+  margin: 0 16px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "init_explore_portfolio_website_spring2026_starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmaraj/INIT_Explore_Portfolio_Website_Spring2026_Starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmaraj/INIT_Explore_Portfolio_Website_Spring2026_Starter/issues"
+  },
+  "homepage": "https://github.com/zmaraj/INIT_Explore_Portfolio_Website_Spring2026_Starter#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

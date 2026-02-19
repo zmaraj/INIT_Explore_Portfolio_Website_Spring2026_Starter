@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<<<<<<< HEAD
-    <title>Workshop 2: HTML & CSS</title>
+    <title>Workshop 3: Intro to JavaScript & Advanced CSS</title>
     <style>
       body {
         font-family:
@@ -44,7 +43,7 @@
     </style>
   </head>
   <body>
-    <h1>Welcome to Web Dev Workshop 2!</h1>
+    <h1>Welcome to Web Dev Workshop 3!</h1>
     <p>Please follow the links below to access the workshop materials.</p>
 
     <div class="link-box">
@@ -65,58 +64,4 @@
       </div>
     </div>
   </body>
-=======
-    <title>Portfolio Website - Getting Started</title>
-  </head>
-  <body>
-    <h1>Welcome to Your Portfolio Website Project</h1>
-
-    <p>
-      You are currently on the <strong>main</strong> branch. This branch is just
-      a starting point — all workshop content lives on its own branch.
-    </p>
-
-    <h2>Getting Started</h2>
-    <p>
-      To begin, check out the first workshop branch by running the following
-      command in your terminal:
-    </p>
-    <pre><code>git checkout workshop-01-HTML</code></pre>
-
-    <h2>Workshop Branches</h2>
-    <ol>
-      <li><code>workshop-01-HTML</code> &mdash; Introduction to HTML</li>
-      <li><code>workshop-02-CSS</code> &mdash; Styling with CSS</li>
-      <li><code>workshop-03-JavaScript</code> &mdash; Adding Interactivity</li>
-      <li><code>workshop-04-Node.js</code> &mdash; Server-Side with Node.js</li>
-      <li>
-        <code>workshop-05-Chrome_extension</code> &mdash; Building a Chrome
-        Extension
-      </li>
-    </ol>
-
-    <p>
-      Each branch builds on the previous one. Work through them in order and
-      refer to the instructions inside each branch.
-    </p>
-  </body>
-  <script>
-    document.querySelectorAll("pre > code").forEach((code) => {
-      const pre = code.parentElement;
-      const btn = document.createElement("button");
-      btn.textContent = "Copy";
-      btn.style.cssText =
-        "margin-left: 8px; padding:2px 8px;font-size:12px;cursor:pointer;";
-      pre.style.position = "relative";
-      pre.appendChild(btn);
-
-      btn.addEventListener("click", () => {
-        navigator.clipboard.writeText(code.textContent).then(() => {
-          btn.textContent = "Copied!";
-          setTimeout(() => (btn.textContent = "Copy"), 1500);
-        });
-      });
-    });
-  </script>
->>>>>>> 508e1be (Created the welcome page for the main branch)
 </html>
